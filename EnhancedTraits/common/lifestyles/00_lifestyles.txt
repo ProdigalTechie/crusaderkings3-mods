@@ -1,0 +1,52 @@
+﻿diplomacy_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_diplomacy		
+	}
+
+	xp_per_level = 1000
+	base_xp_gain = 50
+}
+
+martial_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_martial		
+	}
+
+	xp_per_level = 1000
+	base_xp_gain = 50
+}
+
+stewardship_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_stewardship		
+	}
+	
+	
+	xp_per_level = 1000
+	base_xp_gain = 50
+}
+
+intrigue_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_intrigue		
+	}
+	
+	
+	xp_per_level = 1000
+	base_xp_gain = 50
+}
+
+learning_lifestyle = {
+
+	is_highlighted = {
+		has_trait = education_learning		
+	}
+	
+	
+	xp_per_level = 1000
+	base_xp_gain = 50
+}

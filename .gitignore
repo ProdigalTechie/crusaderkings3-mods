@@ -1,0 +1,4 @@
+# ignore mod files at root of mod folder
+*.mod
+
+
