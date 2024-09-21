@@ -1,0 +1,6 @@
+﻿l_english:
+
+#Custom traits
+ trait_one_true_king:0 "True Ruler of all the World"
+ trait_one_true_king_desc:0 "You were born to rule, and all shall bow before you."
+ trait_one_true_king_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the once and forever ruler of the world. [ROOT.GetCharacter.GetSheHe] will stop at nothing to control everything and no one will stand in [ROOT.GetCharacter.GetHerHis] way."

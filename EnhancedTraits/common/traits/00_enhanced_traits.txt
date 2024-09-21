@@ -1,0 +1,73 @@
+# Custom Values
+@pos_compat_extreme = 50
+
+# Custom traits
+one_true_king = {
+	minimum_age = 16
+	category = fame
+
+	# Modifiers
+	health = 100
+	
+	diplomacy = 50
+	intrigue = 50
+	martial = 50
+	stewardship = 50
+	learning = 50
+	prowess = 50
+
+	# experience
+	monthly_diplomacy_lifestyle_xp_gain_mult = 1
+	monthly_intrigue_lifestyle_xp_gain_mult = 1
+	monthly_martial_lifestyle_xp_gain_mult = 1
+	monthly_stewardship_lifestyle_xp_gain_mult = 1
+	monthly_learning_lifestyle_xp_gain_mult = 1
+
+	# currency
+	monthly_prestige = 10
+	monthly_piety = 10
+	monthly_income = 10
+	monthly_dynasty_prestige = 100
+
+	# military
+	knight_limit = 50
+	men_at_arms_limit = 10
+	men_at_arms_cap = 5
+	men_at_arms_maintenance_mult = -1.5
+	men_at_arms_recruitment_cost = -1.5
+	
+	# realm
+	domain_limit = 15000
+	courtier_and_guest_opinion = 100	
+	courtiers_and_guests_less_likely_to_join_schemes = yes
+	cheaper_guest_recruitment = yes
+	cheaper_court_positions = yes
+	more_hostage_acceptance = yes
+
+	ruler_designer_cost = 250
+
+	# culture_modifier = {
+	# 	parameter = poorly_educated_leaders_distrusted
+	# 	feudal_government_opinion = -20
+	# }
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_one_true_king_desc
+			}
+			desc = trait_one_true_king_character_desc
+		}
+	}
+
+	compatibility = {
+		strategist = @pos_compat_extreme
+		overseer = @pos_compat_extreme
+		gallant = @pos_compat_extreme
+		brave = @pos_compat_extreme
+		craven = @pos_compat_extreme
+	}
+}
