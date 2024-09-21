@@ -1,0 +1,9 @@
+version="0.0.1"
+tags={
+	"Warfare"
+	"Utilities"
+	"Gameplay"
+	"Balance"
+}
+name="EnhancedTraits"
+supported_version="1.12.5"
